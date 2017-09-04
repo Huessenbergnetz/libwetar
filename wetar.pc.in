@@ -1,0 +1,11 @@
+prefix=$$PREFIX
+exec_prefix=${prefix}
+libdir=$$INSTALL_LIB_DIR
+includedir=$$INSTALL_HEADERS_DIR
+
+Name: libfuoten
+Description: Qt based library to provide access to different weather information/data services.
+Version: $$VERSION
+Libs: -L${libdir} -lwetar
+Cflags: -I${includedir}
+Requires: Qt5Core Qt5Network Qt5Xml

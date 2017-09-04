@@ -1,0 +1,12 @@
+#ifndef LIBWETAR_GLOBAL_H
+#define LIBWETAR_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(LIBWETAR_LIBRARY)
+#  define LIBWETARSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LIBWETARSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // LIBWETAR_GLOBAL_H
