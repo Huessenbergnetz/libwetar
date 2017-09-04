@@ -23,7 +23,7 @@
 #include "wetar_global.h"
 #include <QMetaType>
 
-namespace Wetar {
+namespace LibWetar {
 
 /*!
  * \brief Provides global enumerations.
